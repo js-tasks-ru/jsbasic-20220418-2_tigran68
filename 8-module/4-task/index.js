@@ -132,7 +132,6 @@ export default class Cart {
     this.modal.setBody(div);
     let min = Array.from(div.querySelectorAll('.cart-counter__button_minus'));
     let plus = Array.from(div.querySelectorAll('.cart-counter__button_plus'));
-    console.log(min)
 
     min.map((button)=> {
       button.addEventListener('click', (event) => {
